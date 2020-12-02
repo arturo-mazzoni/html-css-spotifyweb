@@ -20,7 +20,7 @@ main {
 .main_nav {
   width: 250px;
   height: 100%;
-  background-color: lightblue;
+  background-color: green;
 }
 
 /* end main_nav */
@@ -32,6 +32,8 @@ main {
   width: calc(100% - 250px);
   height: 100%;
   background-color: pink;
+  font-size: 50px;
+  overflow-y: scroll;
 }
 
 .call_to_action {
@@ -53,7 +55,7 @@ main {
   border: 1px solid white;
   border-radius: 25px;
   padding: 10px 35px;
-
+  margin-right: 5px;
 }
 
 /* end main_content */
