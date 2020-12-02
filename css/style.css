@@ -15,17 +15,49 @@ main {
   background-color: yellow;
 }
 
+/* main_nav */
+
 .main_nav {
   width: 250px;
   height: 100%;
   background-color: lightblue;
 }
 
+/* end main_nav */
+
+
+/* main_content */
+
 .main_content {
   width: calc(100% - 250px);
   height: 100%;
   background-color: pink;
 }
+
+.call_to_action {
+  width: calc(100% - 250px);
+  height: 90px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: right;
+  line-height: 90px;
+}
+
+.btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 12px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 25px;
+  padding: 10px 35px;
+
+}
+
+/* end main_content */
+
 
 footer {
   width: 100%;
