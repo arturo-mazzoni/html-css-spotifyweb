@@ -44,7 +44,7 @@ main {
   right: 0;
   background-color: rgba(0, 0, 0, 0.7);
   text-align: right;
-  line-height: 90px;
+  /* line-height: 90px; */
 }
 
 .btn {
