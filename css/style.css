@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 /* utili */
 
 .list_style_type_none {
@@ -51,10 +55,14 @@ main {
 .main_nav .main_menu ul li a {
   text-decoration: none;
   text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
 }
 
 .main_nav .main_menu ul li a img {
-  width: 10%;
+  width: 20px;
+  vertical-align: middle;
+  margin-right: 5px;
 }
 
 /* end main menu */
@@ -68,8 +76,20 @@ main {
   overflow: hidden;
 }
 
+.main_nav .create_playlist h3 {
+  margin-bottom: 10px;
+}
+
 .main_nav .create_playlist a {
   text-decoration: none;
+  line-height: 40px;
+  font-size: 15px;
+}
+
+.main_nav .create_playlist a i {
+  font-size: 35px;
+  margin-right: 10px;
+  line-height: 35px;
 }
 
 .my_playlists {
