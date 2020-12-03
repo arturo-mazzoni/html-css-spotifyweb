@@ -28,8 +28,13 @@ main {
 .main_nav {
   width: 250px;
   height: 100%;
-  background-color: green;
+  background-color: black;
+  color: white;
   position: relative;
+}
+
+.main_nav a {
+  color: white;
 }
 
 .main_nav .box_logo .logo {
@@ -37,19 +42,24 @@ main {
   margin: 20px;
 }
 
-.main_nav .main_menu ul li a {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: white;
-}
+/* main menu */
 
 .main_nav .main_menu {
   margin-left: 20px;
 }
 
-.main_nav .main_menu li a img {
+.main_nav .main_menu ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.main_nav .main_menu ul li a img {
   width: 10%;
 }
+
+/* end main menu */
+
+/* create playlist */
 
 .main_nav .create_playlist {
   margin-top: 20px;
@@ -60,6 +70,10 @@ main {
   text-decoration: none;
 }
 
+/* end create playlist */
+
+/* my playlists */
+
 .main_nav .my_playlists {
   margin-left: 20px;
 }
@@ -67,6 +81,10 @@ main {
 .main_nav .my_playlists a {
   text-decoration: none;
 }
+
+/* end my playlists */
+
+/* profile */
 
 .main_nav .profile {
   width: 100%;
@@ -79,6 +97,8 @@ main {
 .main_nav .profile a {
   text-decoration: none;
 }
+
+/* end profile */
 
 /* end main_nav */
 
