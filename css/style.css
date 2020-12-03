@@ -74,6 +74,10 @@ main {
 
 /* my playlists */
 
+.my_playlists {
+  overflow-y: auto;
+}
+
 .main_nav .my_playlists {
   margin-left: 20px;
 }
