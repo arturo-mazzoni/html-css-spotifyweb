@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+/* utili */
+
+.list_style_type_none {
+  list-style-type: none;
+}
+
+/* fine utili */
+
 main {
   display: flex;
   height: calc(100% - 90px);
@@ -21,6 +29,7 @@ main {
   width: 250px;
   height: 100%;
   background-color: green;
+  position: relative;
 }
 
 .main_nav .box_logo .logo {
@@ -34,8 +43,40 @@ main {
   color: white;
 }
 
+.main_nav .main_menu {
+  margin-left: 20px;
+}
+
 .main_nav .main_menu li a img {
   width: 10%;
+}
+
+.main_nav .create_playlist {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.main_nav .create_playlist a {
+  text-decoration: none;
+}
+
+.main_nav .my_playlists {
+  margin-left: 20px;
+}
+
+.main_nav .my_playlists a {
+  text-decoration: none;
+}
+
+.main_nav .profile {
+  margin-left: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.main_nav .profile a {
+  text-decoration: none;
 }
 
 /* end main_nav */
