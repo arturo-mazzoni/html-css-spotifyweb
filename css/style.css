@@ -27,7 +27,7 @@ main {
 
 .main_nav {
   width: 250px;
-  height: 100%;
+  min-height: 480px;
   background-color: black;
   color: white;
   position: relative;
@@ -70,23 +70,13 @@ main {
   text-decoration: none;
 }
 
+ .my_playlists {
+   height: 80%;
+   background-color: red;
+ }
+
 /* end create playlist */
 
-/* my playlists */
-
-.my_playlists {
-  overflow-y: auto;
-}
-
-.main_nav .my_playlists {
-  margin-left: 20px;
-}
-
-.main_nav .my_playlists a {
-  text-decoration: none;
-}
-
-/* end my playlists */
 
 /* profile */
 
@@ -100,6 +90,14 @@ main {
 
 .main_nav .profile a {
   text-decoration: none;
+}
+
+.box_profile_img {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  background-color: grey;
+  display: inline-block;
 }
 
 /* end profile */
