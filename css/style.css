@@ -23,6 +23,21 @@ main {
   background-color: green;
 }
 
+.main_nav .box_logo .logo {
+  width: 65%;
+  margin: 20px;
+}
+
+.main_nav .main_menu ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+.main_nav .main_menu li a img {
+  width: 10%;
+}
+
 /* end main_nav */
 
 
@@ -44,6 +59,7 @@ main {
   background-color: rgba(0, 0, 0, 0.7);
   text-align: right;
   line-height: 90px;
+  z-index: 2;
 }
 
 .btn {
@@ -67,4 +83,5 @@ footer {
   left: 0;
   bottom: 0;
   background-color: gray;
+  z-index: 1;
 }
