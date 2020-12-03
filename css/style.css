@@ -62,18 +62,20 @@ main {
 /* create playlist */
 
 .main_nav .create_playlist {
+  height: 70%;
   margin-top: 20px;
   margin-left: 20px;
+  overflow: hidden;
 }
 
 .main_nav .create_playlist a {
   text-decoration: none;
 }
 
- .my_playlists {
+.my_playlists {
    height: 80%;
-   background-color: red;
- }
+   overflow: auto;
+}
 
 /* end create playlist */
 
