@@ -37,7 +37,7 @@ main {
 }
 
 .main_nav a {
-  color: lightgrey;
+  color: grey;
 }
 
 .main_nav .box_logo .logo {
@@ -229,12 +229,31 @@ main {
 
 .container_recently_played {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   flex-wrap: wrap;
+}
+
+.item_recently_played {
+  margin-left: 20px;
 }
 
 .container_recently_played .item_recently_played img {
   width: 150px;
+}
+
+.container_recently_played .item_recently_played h4 {
+  color: white;
+  margin: 10px 0;
+  max-width: 100%;
+}
+
+.container_recently_played .item_recently_played h6 {
+  color: grey;
+}
+
+.titles {
+  width: 150px;
+  text-align: center;
 }
 
 /* end main_content */
