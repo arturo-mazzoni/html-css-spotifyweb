@@ -67,6 +67,10 @@ main {
   margin-right: 5px;
 }
 
+.box_logo img.logo_small {
+  display: none;
+}
+
 /* end main menu */
 
 /* create playlist */
@@ -85,8 +89,12 @@ main {
 
 .main_nav .create_playlist a {
   text-decoration: none;
-  line-height: 40px;
+  line-height: 30px;
   font-size: 15px;
+}
+
+.main_nav .create_playlist i {
+  vertical-align: middle;
 }
 
 .main_nav .create_playlist a:hover {
@@ -100,7 +108,7 @@ main {
 .main_nav .create_playlist a i {
   font-size: 35px;
   margin-right: 10px;
-  line-height: 35px;
+  margin-bottom: 20px;
 }
 
 .my_playlists {
@@ -115,7 +123,7 @@ main {
 
 .main_nav .profile {
   width: 100%;
-  padding: 0 20px;
+  padding: 20px 20px;
   background-color: black;
   position: absolute;
   bottom: 0;
@@ -133,6 +141,11 @@ main {
 
 .main_nav .profile a img {
   width: 15px;
+  vertical-align: middle;
+}
+
+.profile hr {
+  margin: 10px 0;
 }
 
 .main_nav .profile span {
@@ -144,8 +157,11 @@ main {
   width: 25px;
   height: 25px;
   margin: 5px;
+  border-radius: 50%;
   background-color: grey;
+  vertical-align: middle;
   display: inline-block;
+  overflow: hidden;
 }
 
 .main_nav .profile .box_profile_img img {
@@ -206,6 +222,21 @@ main {
   color: lightgrey;
 }
 
+.main_content h2 {
+  color: white;
+  margin: 50px 20px;
+}
+
+.container_recently_played {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.container_recently_played .item_recently_played img {
+  width: 150px;
+}
+
 /* end main_content */
 
 
@@ -222,15 +253,55 @@ footer {
 
 /* media query */
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 600px) {
 
   .main_nav {
     width: 50px;
   }
 
-  .box_logo img {
-    display: hidden;
+  .box_logo img.logo {
+    display: none;
   }
+
+  .box_logo img.logo_small {
+    width: 30px;
+    margin: 10px;
+    display: block;
+  }
+
+  .main_nav .main_menu span {
+    display: none;
+  }
+
+  .main_nav .main_menu ul li {
+    margin-left: -5px;
+  }
+
+  .create_playlist {
+    display: none;
+  }
+
+  .call_to_action {
+    width: calc(100% - 50px);
+  }
+
+  .main_content {
+    width: calc(100% - 50px);
+  }
+
+  .profile span, hr {
+    display: none;
+  }
+
+  .box_profile_img {
+    margin-left: -5px;
+    margin-top: 20px;
+  }
+
+  .profile a img {
+    margin-left: -2px;
+  }
+
 }
 
 
