@@ -222,9 +222,22 @@ main {
   color: lightgrey;
 }
 
-.main_content h2 {
+.main_content_container {
+  margin-left: 20px;
+}
+
+.section_title {
+  margin: 50px 0;
+}
+
+.section_title h2 {
+  margin-bottom: 7px;
+  font-size: 20px;
   color: white;
-  margin: 50px 20px;
+}
+
+.section_title h6 {
+  color: grey;
 }
 
 .container_recently_played {
@@ -233,18 +246,14 @@ main {
   flex-wrap: wrap;
 }
 
-.item_recently_played {
-  margin-left: 20px;
-}
-
 .container_recently_played .item_recently_played img {
   width: 150px;
+  margin-right: 20px;
 }
 
 .container_recently_played .item_recently_played h4 {
   color: white;
   margin: 10px 0;
-  max-width: 100%;
 }
 
 .container_recently_played .item_recently_played h6 {
@@ -320,6 +329,8 @@ footer {
   .profile a img {
     margin-left: -2px;
   }
+
+
 
 }
 
