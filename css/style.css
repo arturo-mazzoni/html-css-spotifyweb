@@ -292,6 +292,13 @@ footer h4, footer h6 {
 .footer_left img {
   width: 50px;
   height: 50px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.footer_titles {
+  margin-top: 30px;
+  margin-left: 10px;
 }
 
 .footer_middle {
@@ -309,14 +316,18 @@ footer h4, footer h6 {
   font-size: 30px;
 }
 
-.record_bar {
-  width: 30%;
-  height: 3px;
-  background-color: lightgrey;
+.player_bar_box {
+  display: flex;
   position: absolute;
   top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.player_bar {
+  width: 300px;
+  height: 3px;
+  background-color: lightgrey;
 }
 
 
