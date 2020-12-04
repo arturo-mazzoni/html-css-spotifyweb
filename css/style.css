@@ -276,6 +276,20 @@ footer {
   bottom: 0;
   background-color: gray;
   z-index: 1;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer_left {
+  display: flex;
+}
+
+.footer_left img {
+  width: 50px;
+}
+
+.footer_middle {
+  flex-grow: 2;
 }
 
 
