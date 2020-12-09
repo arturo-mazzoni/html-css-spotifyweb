@@ -343,7 +343,15 @@ footer h4, footer h6 {
   width: 75%;
   height: 3px;
   margin: 0 5px;
-  background-color: lightgrey;
+  background-color: grey;
+  border-radius: 3px;
+}
+
+.playing_bar {
+  width: 30%;
+  height: 3px;
+  background-color: white;
+  border-radius: 3px;
 }
 
 .player_start_time,
@@ -365,8 +373,16 @@ footer h4, footer h6 {
 .volume_bar {
   width: 20%;
   height: 3px;
-  background-color: lightgrey;
+  background-color: grey;
   margin-right: 20px;
+  border-radius: 3px;
+}
+
+.current_volume {
+  width: 20%;
+  height: 3px;
+  background-color: white;
+  border-radius: 3px;
 }
 
 
